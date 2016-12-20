@@ -1,0 +1,100 @@
+.container{
+	background-color: gainsboro;
+	font-family: 'Roboto', sans-serif;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	border: 1px solid lightgrey;
+	top: 0;
+	left: 0;
+}
+
+.container p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 24pt;
+}
+
+.top-nav{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 24pt;
+}
+
+
+.nav-link {
+	margin-right: 10px;
+}
+
+a:hover {
+	color: black;
+}
+
+a:visited {
+	color: purple;
+}
+
+form{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+input[name="searchBox"]{
+	width: 50%;
+}
+
+.search-button {
+  vertical-align: bottom;
+}
+
+.magnifying-glass-pic {
+  height: 15px;
+}
+
+.nav-buttons{
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.button-page{
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+.button-num{
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+.searchResult{
+	list-style: none;
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 60px;
+}
+
+.listing{
+	margin-bottom: 20px;
+	color: lightgrey;
+	font-family: 'Roboto', sans-serif;
+}
+
+.listing-title{
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
